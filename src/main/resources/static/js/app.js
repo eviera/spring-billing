@@ -1,13 +1,19 @@
-var app = angular.module('app', ['ngRoute', 'ngResource']);
-app.config(function ($routeProvider) {
+var app = angular.module('billingApp', ['ngRoute', 'restangular']);
+
+app.config(function ($routeProvider, RestangularProvider) {
+
+
+    //RestangularProvider.setBaseUrl(location.protocol + '//' + location.hostname + (location.port && ':' + location.port) + location.pathname + 'rest');
+    RestangularProvider.setBaseUrl('http://localhost:8080/');
+
     $routeProvider
-        .when('/users', {
-            templateUrl: '/views/users.html',
-            controller: 'usersController'
+        .when('/companies', {
+            templateUrl: '/views/companies.html',
+            controller: 'companiesController'
         })
-        .when('/roles', {
-            templateUrl: '/views/roles.html',
-            controller: 'rolesController'
+        .when('/documents', {
+            templateUrl: '/views/documents.html',
+            controller: 'documentsController'
         })
         .otherwise(
             {redirectTo: '/'}

@@ -17,9 +17,13 @@
 
 ##Fase 1
 -  ~~Armar el proyecto~~
-- Crear documentos de prueba cuando se inicializa
+- ~~Crear companies de prueba cuando se inicializa~~
+- ~~Crear documentos de prueba cuando se inicializa~~
 - Usar webjars para levantar Angular
 - Usar AngularUI
+- ~~REST de Company~~
+- ~~Mostrar las companies~~
+-- Paginar las Companies
 - REST de Document
 - Mostrar los documentos y paginarlos
 
@@ -45,6 +49,7 @@
 - spring security: https://spring.io/blog/2015/01/12/spring-and-angular-js-a-secure-single-page-application
 - spring security: http://www.baeldung.com/spring-security-session
 - spring boot reference: https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/
+- la consola del H2 vive en: http://localhost:8080/h2-console  (gracias a spring-boot-devtools)
 
 ##Tips
 - Para refrescar en Debug, Ctrl+F9
