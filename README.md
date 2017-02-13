@@ -19,12 +19,12 @@
 -  ~~Armar el proyecto~~
 - ~~Crear companies de prueba cuando se inicializa~~
 - ~~Crear documentos de prueba cuando se inicializa~~
-- Usar webjars para levantar Angular
+- ~~Usar webjars para levantar Angular~~
 - Usar AngularUI
 - ~~REST de Company~~
 - ~~Mostrar las companies~~
 -- Paginar las Companies
-- REST de Document
+- ~~REST de Document~~
 - Mostrar los documentos y paginarlos
 
 ##Fase 2
