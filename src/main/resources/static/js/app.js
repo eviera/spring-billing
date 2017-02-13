@@ -4,7 +4,7 @@ app.config(function ($routeProvider, RestangularProvider) {
 
 
     //RestangularProvider.setBaseUrl(location.protocol + '//' + location.hostname + (location.port && ':' + location.port) + location.pathname + 'rest');
-    RestangularProvider.setBaseUrl('http://localhost:8080/');
+    RestangularProvider.setBaseUrl('http://localhost:9000/');
 
     $routeProvider
         .when('/companies', {
