@@ -1,4 +1,4 @@
-var app = angular.module('billingApp', ['ngRoute', 'restangular']);
+var app = angular.module('billingApp', ['ngRoute', 'restangular', 'ui.grid']);
 
 app.config(function ($routeProvider, RestangularProvider) {
 

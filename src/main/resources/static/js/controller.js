@@ -10,7 +10,18 @@ app.controller('documentsController', function ($scope, Restangular) {
     $scope.headingTitle = "Documents";
 
     Restangular.all('documents').getList().then(function (docList) {
-        $scope.documents = docList;
+        $scope.gridOptions.data = docList;
     });
+
+    $scope.gridOptions = {
+        enableSorting: true,
+        columnDefs: [
+            { field: 'id' },
+            { name: 'Payer', field: 'payer.razonSocial' },
+            { field: 'legalDocRef' },
+            { name: 'Emisión', field: 'issueDate', cellFilter: 'date' },
+        ]
+    };
+
 
 });
