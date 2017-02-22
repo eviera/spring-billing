@@ -56,3 +56,6 @@
 
 ##Tips
 - Para refrescar en Debug, Ctrl+F9
+- REST debe invocar recursos 'sustantivos' (/document, /transaction), donde los verbos son las acciones (POST, GET)
+  - deben ser idempotentes
+- El usuario se puede guardar directamente en la http session (ver getShoppingCartInSession: https://github.com/bijukunjummen/shopping-cart-cf-app/blob/master/src/main/java/pso/shop/service/ShoppingCartService.java)
