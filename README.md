@@ -9,9 +9,8 @@
   - derecho para acceder
   - colorear vencidos
   - totalizer
-- Sett edit y confirm
-- PagosConsulta
-  - derecho para acceder
+- ~~Sett edit y confirm~~ **no tiene sentido porque REST no es para esto**
+- ~~PagosConsulta~~ **no tiene sentido porque REST no es para esto**
 - Update de docs via file con Spring Batch
 - Tareas
 
@@ -25,7 +24,7 @@
 - ~~Mostrar las companies~~
   - Paginar las Companies
 - ~~REST de Document~~
-- Mostrar los documentos y paginarlos
+- ~~Mostrar los documentos y paginarlos~~
   - Area de filtros con combo de seleccion de payer
     - El finder debe traer los documentos por payer ordenados por type, issue-date
 
@@ -33,9 +32,9 @@
 - Login
 - Seguridad en las paginas (Spring security)
 
-##Fase 3
-- Armado del pago 
-- Pagos/Consulta
+## **no** ~~Fase 3~~
+- **no** ~~Armado del pago~~ 
+- **no** ~~Pagos/Consulta~~
 
 ##Fase 4
 - Update de docs via file con Spring Batch
@@ -53,6 +52,8 @@
 - spring security: http://www.baeldung.com/spring-security-session
 - spring boot reference: https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/
 - la consola del H2 vive en: http://localhost:8080/h2-console  (gracias a spring-boot-devtools)
+- general REST, ejemplos API: https://gist.github.com/hjr3/2289546
+- general Restbucks (shopping cart): https://github.com/olivergierke/spring-restbucks
 
 ##Tips
 - Para refrescar en Debug, Ctrl+F9
