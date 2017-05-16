@@ -4,8 +4,8 @@
 - Login
   - Spring security
 - Nextbill
-  - tablas paginables: http://www.baeldung.com/pagination-with-a-spring-rest-api-and-an-angularjs-table
-    - Angular UI grid: http://ui-grid.info/
+  - ~~tablas paginables: http://www.baeldung.com/pagination-with-a-spring-rest-api-and-an-angularjs-table~~
+    - ~~Angular UI grid: http://ui-grid.info/~~
   - derecho para acceder
   - colorear vencidos
   - totalizer
@@ -48,10 +48,10 @@
 - ui-grid doc: https://github.com/angular-ui/ui-grid/wiki/Defining-columns
 - reload de paginas: http://stackoverflow.com/questions/24762657/refreshing-static-content-with-spring-mvc-and-boot
 - spring security: https://spring.io/guides/tutorials/spring-security-and-angular-js/
-- spring security: https://spring.io/blog/2015/01/12/spring-and-angular-js-a-secure-single-page-application
-- spring security: http://www.baeldung.com/spring-security-session
+    - spring security: http://www.baeldung.com/spring-security-session
+- spring security: http://ryanjbaxter.com/2015/01/06/securing-rest-apis-with-spring-boot/
+- spring security: https://kielczewski.eu/2014/12/spring-boot-security-application/
 - spring boot reference: https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/
-- la consola del H2 vive en: http://localhost:8080/h2-console  (gracias a spring-boot-devtools)
 - general REST, ejemplos API: https://gist.github.com/hjr3/2289546
 - general Restbucks (shopping cart): https://github.com/olivergierke/spring-restbucks
 
@@ -60,3 +60,7 @@
 - REST debe invocar recursos 'sustantivos' (/document, /transaction), donde los verbos son las acciones (POST, GET)
   - deben ser idempotentes
 - El usuario se puede guardar directamente en la http session (ver getShoppingCartInSession: https://github.com/bijukunjummen/shopping-cart-cf-app/blob/master/src/main/java/pso/shop/service/ShoppingCartService.java)
+- Por default se setea user:sasa (si esta activada la seguridad en application.properties)
+- La consola del H2 vive en: http://localhost:8080/h2-console  (gracias a spring-boot-devtools)
+- La base H2 se configura automaticamente "Spring Boot can auto-configure embedded H2, HSQL and Derby databases. You don’t need to provide any connection URLs, simply include a build dependency to the embedded database that you want to use."
+
